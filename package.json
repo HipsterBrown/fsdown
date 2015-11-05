@@ -1,7 +1,7 @@
 {
-  "name": "lowdown",
+  "name": "fsdown",
   "version": "0.1.0",
-  "description": "A leveldown replacement based on lowdb",
+  "description": "A leveldown replacement based on fsdown",
   "main": "index.js",
   "scripts": {
     "test-pouchdb": "./bin/test-pouchdb.sh"
