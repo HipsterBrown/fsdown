@@ -1,0 +1,22 @@
+{
+  "name": "lowdown",
+  "version": "0.1.0",
+  "description": "A leveldown replacement based on lowdb",
+  "main": "index.js",
+  "scripts": {
+    "test-pouchdb": "./bin/test-pouchdb.sh"
+  },
+  "author": "HipsterBrown",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.0.6",
+    "abstract-leveldown": "^2.4.1",
+    "functional-red-black-tree": "^1.0.1",
+    "kv": "^1.1.1",
+    "leveldown-open": "^1.0.3"
+  },
+  "devDependencies": {
+    "pouchdb": "pouchdb/pouchdb#fix-leveldown-args",
+    "pouchdb-server": "^1.0.0"
+  }
+}
